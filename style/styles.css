@@ -1,0 +1,53 @@
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+    background-color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    text-align: center;
+    margin: 4rem auto;
+}
+.header-title {
+    font-size: 5rem;
+    color:coral;
+}
+.stopwatch {
+    background-color:darkgrey;
+    width: 45rem;
+    margin: 0 auto;
+    height: 25rem;
+    padding: 3rem;
+    border-radius: 2rem;
+    position: relative;
+}
+.stopwatch-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.stopwatch-button button{
+    padding: 0.3rem .7rem;
+    width: 13rem;
+    border-radius: .7rem;
+    background-color: black;
+    color: wheat;
+    font-size: 2rem;
+}
+.stopwatch-screen {
+    position: absolute;
+    margin: 0 3rem;
+    width: 39rem;
+    border: 3px solid black;
+    height: 14rem;
+    bottom: 4rem;
+    font-size: 10rem;
+    word-spacing: .3rem;
+    text-align: center;
+}
+.stopwatch-screen span {
+    margin: 2rem 0;
+}
