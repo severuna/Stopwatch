@@ -1,7 +1,3 @@
-// Створіть програму секундомір.
-// * Секундомір матиме 3 кнопки "Старт, Стоп, Скидання"
-// * При натисканні на кнопку стоп фон секундоміра має бути червоним, старт - зелений, скидання - сірий * Виведення лічильників у форматі ГГ:ХХ:СС
-// * Реалізуйте Завдання використовуючи синтаксис ES6 та стрілочні функції
 let secondField = document.querySelector('#secondField');
 let minuteField = document.querySelector('#minuteField');
 let hourField = document.querySelector('#hourField');
