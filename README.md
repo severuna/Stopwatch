@@ -1,0 +1,2 @@
+# Stopwatch
+A minimalist stopwatch
